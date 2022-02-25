@@ -1,0 +1,80 @@
+p {
+  text-align: justify;
+  font-family: "Aleo", serif;
+  font-size: 20px;
+  backdrop-filter: blur(10px);
+  text-align: center;
+color: white;  
+line-height: 25px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 50px;
+}
+
+#eu {
+    margin: auto;
+    top: 0;
+    border-radius: 20%;
+}
+
+
+#nome {
+    color: white;
+}
+
+
+#habtexto { 
+    text-align: justify;
+  font-family: "Aleo", serif;
+  font-size: 20px;
+  backdrop-filter: blur(10px);
+  text-align: center;
+  color: pink;
+  line-height: 25px;
+}
+
+.habilidades {
+  text-align: left;
+  backdrop-filter: blur(10px);
+  font-size: 25px;
+  font-weight: 900;
+}
+
+body {
+  background-image: url(fundo3.png);
+  
+}
+
+
+#home { 
+    margin: 19.5cm ;
+}
+
+
+#informapessoal {
+    margin: 16.5cm;
+
+}
+
+
+#amo {
+    margin: 16.8cm;
+}
+
+
+a { 
+    text-decoration: none;
+    color: white;
+    font-size: 35px;
+}
+
+.link {
+    margin: 16cm;
+    backdrop-filter: blur(10px);
+    color: white;
+    border-radius: 15%;
+    font-weight: bold;
+}
+
