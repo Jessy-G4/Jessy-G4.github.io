@@ -49,8 +49,20 @@ body {
 
 
 #home { 
-    background-color: deeppink;
+    margin: 19.5cm ;
 }
+
+
+#informapessoal {
+    margin: 16.5cm;
+
+}
+
+
+#amo {
+    margin: 16.8cm;
+}
+
 
 a { 
     text-decoration: none;
@@ -59,6 +71,10 @@ a {
 }
 
 .link {
-    margin: 16cm ;
+    margin: 16 ;
     backdrop-filter: blur(10px);
+    color: white;
+    border-radius: 15%;
+    font-weight: bold;
 }
+
