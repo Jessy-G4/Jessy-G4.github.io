@@ -1,32 +1,44 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+
 p {
   text-align: justify;
   font-family: "Aleo", serif;
   font-size: 20px;
   backdrop-filter: blur(10px);
   text-align: center;
-color: white;  
-line-height: 25px;
+  color: white;
+  line-height: 25px;
 }
 
 h1 {
-    text-align: center;
-    font-size: 50px;
+  text-align: center;
+  font-size: 50px;
+  font-family: "Aleo", serif;
+  position: absolute;
+  top: 167px;
+  left: 400px ; 
 }
 
 #eu {
-    margin: auto;
-    top: 0;
-    border-radius: 20%;
+  position: absolute;
+  margin: auto;
+  border-radius: 20%;
+  left: 700px;
+  top: 250px;
+  z-index: 10;
 }
-
 
 #nome {
-    color: white;
+  color: white;
 }
 
-
-#habtexto { 
-    text-align: justify;
+#habtexto {
+  text-align: justify;
   font-family: "Aleo", serif;
   font-size: 20px;
   backdrop-filter: blur(10px);
@@ -36,45 +48,44 @@ h1 {
 }
 
 .habilidades {
-  text-align: left;
-  backdrop-filter: blur(10px);
-  font-size: 25px;
-  font-weight: 900;
+  
 }
 
 body {
   background-image: url(fundo2.png);
+  max-width: 2000px;
+}
+
+#home {
   
 }
 
-
-#home { 
-    margin: 19.5cm ;
-}
-
-
 #informapessoal {
-    margin: 16.5cm;
-
+  
 }
-
 
 #amo {
-    margin: 16.8cm;
+  
 }
 
-
-a { 
-    text-decoration: none;
-    color: white;
-    font-size: 35px;
+a {
+  text-decoration: none;
+  color: white;
+  font-size: 35px;
 }
 
 .link {
-    margin: 16cm;
-    backdrop-filter: blur(10px);
-    color: white;
-    border-radius: 15%;
-    font-weight: bold;
+  
+  backdrop-filter: blur(10px);
+  color: white;
+  border-radius: 15%;
+  font-weight: bold;
+}
+
+#descriçao {
+  position: absolute;
+    top: 600px;
+  z-index: 3;
+  left: 400px;
 }
 
