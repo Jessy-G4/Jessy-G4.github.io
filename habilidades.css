@@ -1,0 +1,104 @@
+body {
+    background-image: url(fundo.png);
+}
+
+
+h1, p, li, h2 {
+    backdrop-filter: blur(10px);
+    color: aliceblue;
+    font-family: "Aleo", serif;
+}
+
+
+h1 {
+    margin-top: 50px;
+    font-size: 40px;
+}
+
+p {
+    font-size: 20px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+li {
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+
+#home {
+  background-color: cyan;
+  color: pink;
+  border-radius: 15%;
+  font-weight: bold;
+  outline-style: solid;
+  outline: 100px;
+  border: 100px;
+  border-style: initial;
+  margin-left: 200px;
+  margin-top: 40px;
+  margin-right: 100px;
+  margin-bottom: 40px;
+  left: 320px;
+  top: 0px;
+  padding: 20px;
+  border-radius: 10%;
+}
+
+#informapessoal {
+  color: cyan;
+  border-radius: 15%;
+  font-weight: bold;
+  outline-style: solid;
+  outline: 100px;
+  border: 100px;
+  border-style: initial;
+  left: 280px;
+  top: 70px;
+  padding: 20px;
+  background-color: aliceblue;
+  border-radius: 10%;
+  margin-left: 100px;
+  margin-top: 40px;
+  margin-right: 100px;
+}
+
+#amo {
+  color: whitesmoke;
+  border-radius: 15%;
+  font-weight: bold;
+  outline-style: solid;
+  outline: 100px;
+  border: 100px;
+  border-style: initial;
+  left: 290px;
+  top: 140px;
+  padding: 20px;
+  background-color: pink;
+  border-radius: 10%;
+  margin-left: 100px;
+  margin-top: 40px;
+  margin-right: 100px;
+}
+a {
+  text-decoration: solid;
+  color: white;
+  backdrop-filter: blur(10px);
+  border-style: solid;
+  border: gray 10px;
+  font-size: 35px;
+}
+#home:hover,
+#amo:hover,
+#informapessoal:hover {
+  font-weight: bold;
+  color: purple;
+  backdrop-filter: blur(30px);
+}
+
+.link:active {
+  color: yellowgreen;
+}
