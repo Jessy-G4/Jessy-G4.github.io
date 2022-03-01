@@ -1,9 +1,7 @@
 * {
-    margin: 0px;
-    padding: 0px;
+  margin: 0px;
+  padding: 0px;
 }
-
-
 
 p {
   text-align: justify;
@@ -11,7 +9,7 @@ p {
   font-size: 20px;
   backdrop-filter: blur(10px);
   text-align: center;
-  color: white;
+  color: blanchedalmond;
   line-height: 25px;
 }
 
@@ -20,17 +18,19 @@ h1 {
   font-size: 50px;
   font-family: "Aleo", serif;
   position: absolute;
-  top: 167px;
-  left: 400px ; 
+  top: 220px;
+  left: 400px;
 }
 
 #eu {
   position: absolute;
-  margin: auto;
+  background-image: url(perfil.png);
   border-radius: 20%;
   left: 700px;
-  top: 250px;
+  top: 300px;
   z-index: 10;
+  max-width: 80%;
+  max-height: 80%;
 }
 
 #nome {
@@ -43,49 +43,117 @@ h1 {
   font-size: 20px;
   backdrop-filter: blur(10px);
   text-align: center;
-  color: pink;
+  color: red;
   line-height: 25px;
 }
 
-.habilidades {
-  
-}
 
 body {
   background-image: url(fundo2.png);
-  max-width: 2000px;
 }
 
 #home {
-  
+    background-color: cyan;
+    color: pink;
+    border-radius: 15%;
+    font-weight: bold;
+    outline-style: solid;
+    outline: 100px;
+    border: 100px;
+    border-style: initial;
+    margin-left: 200px;
+    margin-top: 40px;
+    margin-right: 100px;
+    margin-bottom: 40px;
+    left: 320px;
+    top: 0px;
+    padding: 20px;
+    border-radius: 10%;
 }
 
 #informapessoal {
-  
+    color: cyan;
+    border-radius: 15%;
+    font-weight: bold;
+    outline-style: solid;
+    outline: 100px;
+    border: 100px;
+    border-style: initial;
+    left: 280px;
+    top: 70px;
+    padding: 20px;
+    background-color: aliceblue;
+    border-radius: 10%;
+    margin-left: 100px;
+    margin-top: 40px;
+    margin-right: 100px;
 }
 
+
 #amo {
-  
+    color: whitesmoke;
+    border-radius: 15%;
+    font-weight: bold;
+    outline-style: solid;
+    outline: 100px;
+    border: 100px;
+    border-style: initial;
+    left: 290px;
+    top: 140px;
+    padding: 20px;
+    background-color: pink;
+    border-radius: 10%;
+    margin-left: 100px;
+    margin-top: 40px;
+    margin-right: 100px;
 }
 
 a {
-  text-decoration: none;
+  text-decoration: solid;
   color: white;
+  backdrop-filter: blur(10px);
+  border-style: solid;
+  border: gray 10px;
   font-size: 35px;
 }
 
 .link {
-  
-  backdrop-filter: blur(10px);
-  color: white;
   border-radius: 15%;
   font-weight: bold;
+  outline-style: solid;
+  outline: 100px;
 }
 
 #descriçao {
   position: absolute;
-    top: 600px;
+  top: 630px;
   z-index: 3;
-  left: 400px;
+  left: 380px;
+  max-width: 60%;
+  outline-style: solid;
+  outline: purple
 }
 
+.rosa {
+    color: pink;
+}
+
+.azul {
+    color: rgb(91 206 250);
+}
+
+#habtexto:hover {
+    font-weight: bold;
+    color: greenyellow;
+    font-size: 25px;
+}
+
+#home:hover, #amo:hover, #informapessoal:hover {
+    font-weight: bold;
+    color: purple;
+    backdrop-filter: blur(30px);
+}
+
+.link:active {
+    color: yellowgreen;
+}
